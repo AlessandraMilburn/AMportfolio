@@ -1,0 +1,716 @@
+/*
+  Theme Name: AM
+  Author: Alessandra Milburn
+  Version: 1.0
+*/
+
+/*
+  Legend
+
+  colors:
+  primary white #ffffff
+  secondary black #000000
+  accent beige #DCA889
+  - 
+  fonts:
+  Headers Fjalla One
+  Subheaders Caveat
+  Content Lato
+  - 
+
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}  
+
+html, body {
+  color: #000000;
+  background-color: #ffffff;
+  letter-spacing: .1em;
+  width: 100%;
+  height: 100%;
+  font-family: 'Fjalla One';
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+/*-------------------------------------------FONTS */
+
+h1 {
+  font-family: 'Fjalla One';
+  font-size: 40px;
+  letter-spacing: 8px;
+}
+
+h2 {
+  font-family: 'Fjalla One';
+  font-size: 30px;
+  padding: .5% 0%;
+  margin: 3% 0%;
+
+}
+
+h3 {
+  font-family: 'Fjalla One';
+  font-size: 20px;
+}
+
+h4 {
+  font-family: 'Fjalla One';
+  font-size: 16px; 
+}
+
+h5 {
+  font-family: 'Lato';
+  font-size: 15px;
+  font-weight: 300;
+}
+
+p {
+  font-family: 'Lato';
+  font-size: 16px;
+  letter-spacing: .05em;
+  font-weight: 300;
+  margin: 1% 0.5%;
+}
+
+
+
+/*-------------------------------------------OTHER FONT STYLES */
+
+/* subheadings */
+
+.underlined {
+  text-decoration: underline;
+  margin: 2.5% 0%;
+}
+
+/* links */
+a {
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.beige-link a {
+  color: #DCA889;
+  text-decoration: underline;
+}
+
+/* colors */
+
+.grey {
+  color: #c4c4c4;
+}
+
+
+/* text alignment */
+.left-align {
+  text-align: left;
+}
+
+li p {
+  text-align: left;
+}
+/*-------------------------------------------header */
+
+header {
+  align-items: center;
+  padding: 2% 0% 0% 0%;
+  top: 0;
+}
+
+header div {
+  text-align: center;
+  padding-bottom: .5%;
+}
+
+#tagline {
+  font-family: 'Caveat';
+  margin: 0%;
+  padding: 0%;
+}
+
+/* to do: Add white logo */
+
+/* menu */
+
+nav {
+  width: 100%;
+  padding: 0%;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style-type: none;
+  color: #ffffff;
+  background-color: #000000;
+  font-family: 'Fjalla One';
+}
+
+nav ul li {
+  padding: 1% 2%;
+  text-transform: uppercase;
+
+}
+
+nav ul li:hover,
+.current-menu-item {
+  background-color: #DCA889;
+}
+ 
+/*------------------------------------------- containers */
+
+main {
+  flex: 2 1; 
+  width: 100%;
+}
+
+/* page-container */
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  margin: 2.5% 15%;
+  line-height: 140%;
+  text-align: center;
+}
+
+
+
+/* ---------------------------------images */
+
+main img {
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+}
+
+.centered-image {
+  width: 35%;
+  margin: 0% 32.5%;
+}
+
+.shadow-effect {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.heavy-content img {
+  width: 70%;
+  margin: 5% 15%
+}
+/* ---------------------------------videos */
+
+.centered-video {
+  align-self: center;
+}
+
+/* ---------------------------------figures */
+
+.separator {
+  display: flex;
+  align-content: center;
+  width: 10%;
+  margin: 5% 45%;
+  height: 1px;
+  background-color: #000000;
+}
+
+/* ---------------------------------ELEMENTS WITH COLORED BG*/
+
+/* BOXES IN ROW */
+
+.box-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.black-box-row,
+.beige-box-row {
+  color: #ffffff;
+  width: 15%;
+  height: auto;
+  padding: 5% 2.5%;
+  margin: 2.5%;
+  flex-wrap: wrap;
+}
+
+.black-box-row {
+  background-color: #000000;
+}
+
+.beige-box-row,
+.black-box-hover:hover,
+.filter.active {
+  background-color: #DCA889;
+}
+
+/* RECTANGLES IN COLUMN */
+
+.rectangle-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.black-rectangle-row {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 1% 2%;
+  margin: 1% 2%;
+}
+
+.beige-rectangle-column {
+  background-color: #DCA889;
+  color: #ffffff;
+  width: 100%;
+  margin: 2% 0%;
+  padding: 1% 0%;
+}
+
+/*-------------------------------------------BUTTONS */
+
+/* rectangle button */
+
+.black-rectangle-button {
+  background-color: black;
+  color: #ffffff;
+  text-align: center;
+  align-self: center;
+  width: 50%;
+  margin: 1.5% 25%;
+  padding: 1%;
+}
+
+/*-------------------------------------------PREVIEWS */
+
+
+/* containers wrapped with anchor */
+
+.preview-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 2%;
+}
+
+/* contents wrapped in anchor/section or span */
+
+/* image with details right short details*/
+.image-container {
+  width: 60%;
+}
+
+.short-details {
+  padding: 5%;
+  align-self: center;
+  width: 25%;
+}
+
+/*-------------------------------------------HOVERS */
+
+.preview-container img:hover {
+  opacity: 70%;
+}
+
+/*-------------------------------------------DETAILED PAGE */
+
+/* ---------sections */
+
+.detailed-row,
+.detailed-column {
+  display: flex;
+  margin: 5% 0%;
+}
+
+/* row */
+.detailed-row {
+  flex-direction: row;
+}
+
+/* column */
+.detailed-column {
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-content: center;
+}
+
+/* ---------images */
+
+/* rows */
+
+.row-images /*container */ {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 1% 0%;
+}
+.row-images span /* image with caption */  {
+  margin: 1%;
+  padding: 1%;
+  width: 30%;
+}
+
+/* full length rows */
+
+.full-length-image-row /*container */ {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.full-length-image-row  img {
+  width: 40%;
+  height: 100%;
+  min-height: 600px;
+  border-radius: 0%;
+}
+
+/* ---------details */
+
+.collective-info {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 60%;
+  margin: 0% 1%;
+}
+
+.description {
+  width: 50%;
+  margin-left: 5%;
+  align-self: center;
+}
+
+/*-------------------------------------------filter */
+
+.category {
+  display: none;
+}
+
+.show {
+  display: flex;
+}
+
+.display-filtered-column {
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: 0%;
+}
+
+/*-------------------------------------------BLOG POST */
+
+/* content */
+
+figcaption {
+  font-family: 'Lato';
+  font-weight: 300;
+  color: #c4c4c4;
+}
+.heavy-content h3 {
+  padding: 2.5% 0%;
+  font-size: 30px;
+  font-weight: 300; 
+}
+
+.heavy-content p,
+.heavy-content ul li {
+  margin: 2% 12%;
+  line-height: 150%;
+  text-align: left;
+  font-family: 'Lato';
+
+}
+
+/* author and share */
+
+.share-links {
+  width: 30%;
+  align-self: center;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+#align-left {
+  text-align: left;
+  margin-left: 5%;
+}
+
+.width-adjust{
+  width: 40%;
+}
+
+/*-------------------------------------------contact */
+
+.contact-text {
+  padding: 10% 0%;
+}
+
+#email-me {
+  margin: 0%;
+}
+
+#email-me:hover {
+  background-color: #DCA889;
+}
+
+/*-------------------------------------------footer */
+
+footer {
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 0;
+  justify-content: space-between;
+  height: 25px;
+  color: #ffffff;
+  background-color: #000000;
+  padding: 1% 2.5%;
+  bottom: 0;
+}
+
+/*------------------------------------------------- */
+/*-------------------------------------------LARGE SCREEN */
+/*------------------------------------------------- */
+
+@media only screen and (min-width: 1920px) {
+
+  .project-container,
+  .entries-container,
+  #fullPost {
+    margin: 1% 5% 1% 10%;
+  }
+} 
+
+/*------------------------------------------------- */
+/*-------------------------------------------MOBILE Medium */
+/*------------------------------------------------- */
+
+@media only screen 
+  and (max-device-width: 812px) {
+
+/*-------------------------------------------FONTS*/
+
+  h1 {
+    letter-spacing: 4px;
+  }
+
+  h1,
+  h2 {
+    font-size: 140%;
+  }
+
+  h3,
+  p {
+    font-size: 120%;
+  }
+
+  h4,
+  h5 {
+    font-size: 90%;
+  }
+
+  p {
+    letter-spacing: 0.03em;
+  }
+
+  .underlined {
+    margin: 7.5% 0%;
+  }
+
+/*-------------------------------------------HEADER*/
+
+  header div {
+    padding: 1.5% 0%;
+  }  
+
+  nav ul li {
+    padding: 3%;
+  }
+
+  nav li a {
+    font-size: 90%;
+  }
+
+/*-------------------------------------------BODY*/
+
+  .page-container {
+    margin: 5% 7.5%;
+    line-height: 150%;
+  }
+
+/*-------------------------------------------IMAGES*/
+
+  .centered-image {
+    width: 80%;
+    margin: 3% 10%;
+  }
+
+/* ---------------------------------videos */
+
+  .centered-video {
+    align-self: center;
+    width: 100%;
+    height: 300px;
+  }
+
+/* ---------------------------------list layouts with background */
+
+  /* fuller boxes*/
+
+  .black-box-row,
+  .beige-box-row  {
+    width: 37.5%;
+    margin: 2%;
+    padding: 5% 3%;
+  }
+
+  .beige-rectangle-column {
+    padding: 3%;
+  }
+
+/*-------------------------------------------BUTTONS */
+
+  .black-rectangle-button {
+    width: 70%;
+    margin: 1.5% 15%;
+    padding: 3%;
+  }
+
+/*-------------------------------------------PREVIEWS */
+
+.preview-container {
+  flex-direction: column;
+}
+
+.image-container {
+  width: 100%;
+}
+
+.short-details {
+  width: 80%;
+}
+
+/*-------------------------------------------DETAILED PAGE */
+
+/* ---------sections */
+
+  .detailed-row {
+    flex-wrap: wrap;
+  }
+
+  /* ---------images */
+
+  /* rows */
+
+  .row-images span {
+    width: 40%;
+    margin: 5% 0%;
+  }
+
+  /* full length rows */
+
+  .full-length-image-row {
+    flex-direction: column;
+  }
+
+  .full-length-image-row img {
+    width: 100%;
+    margin: 5% 0%;
+  }
+
+
+
+  /* ---------details */
+
+  .collective-info,
+  .description {
+    width: 100%;
+    margin: 0%;
+  }
+
+  .detailed-column li p {
+    margin: 3% 0%;
+  }
+
+  /*-------------------------------------------BLOG POST */
+
+  .heavy-content h2 {
+    margin: 5% 0%;
+  }
+
+  .heavy-content p {
+    margin: 2% 0% 7.5% 0%;
+  }
+
+  .width-adjust,
+  .share-links {
+    width: 100%;
+    margin: 5% 0%;
+  }
+
+/*-------------------------------------------contact */
+
+  .contact-text {
+    padding: 30% 0%;
+  }
+
+  .contact-text h5 {
+    padding: 0% 10%;
+  }
+
+/*-------------------------------------------footer */
+
+  footer {
+    height: 50px;
+    padding: 3%;
+    align-items: center;
+  }
+
+  footer ul img {
+    width: 30px;
+    height: 30px;
+  }
+  footer h4 {
+    width: 50%;
+    text-align: right;
+  }
+}
+
+/*------------------------------------------------- */
+/*-------------------------------------------MOBILE Small */
+/*------------------------------------------------- */
+
+@media only screen 
+  and (max-device-width: 320px) {
+
+    .beige-box-row,
+    .black-box-row {
+      width: 50%;
+    }
+
+  }
