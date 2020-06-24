@@ -745,10 +745,14 @@ footer {
     align-items: center;
   }
 
-  footer ul img {
-    width: 30px;
-    height: 30px;
+  .social-menu {
+    width: 40%;
   }
+
+  .social-menu div {
+    width: 100%;
+  }
+
   footer h4 {
     width: 50%;
     text-align: right;
