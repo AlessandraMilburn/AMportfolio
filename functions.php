@@ -23,9 +23,12 @@ function am_files() {
   wp_enqueue_style('Caveat-font', '//fonts.googleapis.com/css?family=Caveat&display=swap');
   wp_enqueue_style('Lato-font', '//fonts.googleapis.com/css?family=Lato:300,400&display=swap'); 
 
-    //CSS
+  //CSS
   wp_enqueue_style('am_main_styles', get_stylesheet_uri());
-  wp_enqueue_style( 'prefix-font-awesome', 'https://use.fontawesome.com/releases/v5.0.6/css/all.css', array(), '5.0.6' );    
+  wp_enqueue_style( 'prefix-font-awesome', 'https://use.fontawesome.com/releases/v5.0.6/css/all.css', array(), '5.0.6' );  
+
+  //JAVASCRIPT
+  wp_enqueue_script('googleanalytics', get_template_directory_uri() . '/assets/js/google-analytics.js', null, null); 
 }
 add_action('wp_enqueue_scripts', 'am_files');
 
