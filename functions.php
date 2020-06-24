@@ -31,17 +31,25 @@ add_action('wp_enqueue_scripts', 'am_files');
 
 /*--------------------------------------------------------------
 2.0 Admin Features
+Header - site title, Logo
+Navigation - registration
+Post - thumbnails
 --------------------------------------------------------------*/
 
 function am_features() {
 
-  //HEADER
+  /* Header */
+
+  //Site title  
   add_theme_support('title-tag');
+
+  //Logo 
   add_theme_support( 'custom-logo');
 
-  //NAVIGATION
+  /* NAVIGATION */ 
+
+  //Registration  
   function register_my_menus() {
-  //registers the menus
   register_nav_menus(
     array(
       'header-menu' => __( 'Header Menu' ),
@@ -51,7 +59,9 @@ function am_features() {
   }
   add_action( 'init', 'register_my_menus' );
 
-  //page
+  /* Post */ 
+
+  //Thumblnails  
   add_theme_support( 'post-thumbnails' );  
 }
 add_action('after_setup_theme', 'am_features');
