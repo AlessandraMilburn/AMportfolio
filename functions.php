@@ -1,4 +1,9 @@
 <?php
+
+if ( ! defined( 'ABSPATH' ) ) {
+  exit; // Exit if accessed directly
+}
+
 /*--------------------------------------------------------------
 >>> TABLE OF CONTENTS:
 ----------------------------------------------------------------
@@ -20,7 +25,7 @@ function am_files() {
 
     //CSS
   wp_enqueue_style('am_main_styles', get_stylesheet_uri());
-    
+  wp_enqueue_style( 'prefix-font-awesome', 'https://use.fontawesome.com/releases/v5.0.6/css/all.css', array(), '5.0.6' );    
 }
 add_action('wp_enqueue_scripts', 'am_files');
 
