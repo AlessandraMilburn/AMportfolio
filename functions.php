@@ -28,7 +28,7 @@ function am_files() {
   wp_enqueue_style( 'prefix-font-awesome', 'https://use.fontawesome.com/releases/v5.0.6/css/all.css', array(), '5.0.6' );  
 
   //JAVASCRIPT
-  wp_enqueue_script('googleanalytics', get_template_directory_uri() . '/assets/js/google-analytics.js', null, null); 
+  //wp_enqueue_script('googleanalytics', get_template_directory_uri() . '/assets/js/google-analytics.js', null, null); 
 }
 add_action('wp_enqueue_scripts', 'am_files');
 
@@ -78,5 +78,3 @@ function add_meta_tags() {
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <?php }
   add_action('wp_head', 'add_meta_tags');
-?>
-
