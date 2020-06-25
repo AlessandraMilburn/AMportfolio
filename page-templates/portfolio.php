@@ -9,9 +9,7 @@ get_header(); ?>
 
   <div class="page-container">
 
-    <figure class="separator"></figure>
-    <h3 class="underlined">WEB DEVELOPMENT PROJECTS</h3>
-    <figure class="separator"></figure>
+    <h3 class="m-05"><u>WEB DEVELOPMENT PROJECTS</u></h3>
 
     <!--LIFE OF MONTY-->
     <a  href="/portfolio/lifeofmonty">
@@ -31,9 +29,6 @@ get_header(); ?>
       </div>
     </a>
 
-    <figure class="separator"></figure>
-
-
     <!--AM WEBSITE PORTFOLIO-->
 
     <a  href="/portfolio/am-portfolio">
@@ -52,7 +47,6 @@ get_header(); ?>
         </div>
     </a>
 
-    <figure class="separator"></figure>
 
     <!--DECIMEME-->
     <a  href="/portfolio/decimeme">
@@ -90,9 +84,7 @@ get_header(); ?>
     <figure class="separator"></figure>
 
     -->
-    <figure class="separator"></figure>
-    <h3 class="underlined">OTHER PROJECTS</h3>
-    <figure class="separator"></figure>
+    <h3 class="m-05"><u>OTHER PROJECTS</u></h3>
 
     <!--ANDRA-->
     <a  href="/portfolio/andra/">
@@ -112,8 +104,6 @@ get_header(); ?>
         </div> 
       </div>
     </a>
-
-    <figure class="separator"></figure>
 
     <!--MY NEXT DRESS-->
     <a  href="/portfolio/mynextdress">

@@ -28,7 +28,7 @@
 1.0 Normalize
 2.0 Typography
 3.0 Header
-4.0 Containers
+4.0 Layout
 5.0 Media
 -Images
 -Videos
@@ -72,6 +72,11 @@ body {
   flex-direction: column;
 }
 
+main {
+  flex: 2 1; 
+  width: 100%;
+}
+
 /*--------------------------------------------------------------
 2.0 Typography
 --------------------------------------------------------------*/
@@ -112,15 +117,6 @@ p {
   letter-spacing: .05em;
   font-weight: 300;
   margin: 1% 0.5%;
-}
-
-/* OTHER FONT STYLES */
-
-/* subheadings */
-
-.underlined {
-  text-decoration: underline;
-  margin: 2.5% 0%;
 }
 
 /* links */
@@ -200,13 +196,8 @@ nav ul li:hover,
 }
  
 /*--------------------------------------------------------------
-4.0 Containers
+4.0 Layout
 --------------------------------------------------------------*/
-
-main {
-  flex: 2 1; 
-  width: 100%;
-}
 
 /* page-container */
 
@@ -220,6 +211,15 @@ main {
   text-align: center;
 }
 
+/* SPACING */
+
+.m-05 {
+  margin: 5%;
+}
+
+.my-05 {
+  margin: 5% 0%;
+}
 
 
 /*--------------------------------------------------------------
@@ -592,10 +592,6 @@ footer {
 
   p {
     letter-spacing: 0.03em;
-  }
-
-  .underlined {
-    margin: 7.5% 0%;
   }
 
 /* HEADER */

@@ -17,7 +17,7 @@ get_header(); ?>
     <div>
       <br>
       <!-- SKILLS -->
-      <h3 class="underlined">VALUE I BRING TO YOUR BUSINESS</h3>
+      <h3 class="my-05"><u>VALUE I BRING TO YOUR BUSINESS</u></h3>
 
       <div class="box-container">
         <div class="black-box-row">
@@ -42,7 +42,7 @@ get_header(); ?>
 
       <figure class="separator"></figure>
 
-      <h3 class="underlined">HOW I MANAGE MY TIME AND PRODUCTIVITY</h5>
+      <h3 class="my-05"><u>HOW I MANAGE MY TIME AND PRODUCTIVITY</u></h5>
 
       <div class="rectangle-container">
         <div class="beige-rectangle-column">
@@ -52,7 +52,7 @@ get_header(); ?>
         </div>
         <div class="beige-rectangle-column">
           <h5><b>STRUCTURED TIME MANAGEMENT</b> 
-            <br>using <a target="_blank" href="https://calendar.google.com/calendar" style="text-decoration: underline;">Google Calendar / Reminder / Tasks</a> effectively.
+            <br>time blocking through <a target="_blank" href="https://calendar.google.com/calendar" style="text-decoration: underline;">Google Calendar / Reminder / Tasks</a>.
           </h5>
         </div>
         <div class="beige-rectangle-column">
@@ -69,7 +69,7 @@ get_header(); ?>
 
       <figure class="separator"></figure>
 
-      <h3 class="underlined">CURRENT TOP 3 FAVORITE PODCASTS ARE</h3>
+      <h3 class="my-05"><u>CURRENT TOP 3 FAVORITE PODCASTS ARE</u></h3>
       <div class="rectangle-container">
         <div class="black-rectangle-row">
           <a target="_blank" href="https://open.spotify.com/show/6kAsbP8pxwaU2kPibKTuHE"><h5>ARMCHAIR EXPERT</h5></a>
@@ -89,7 +89,7 @@ get_header(); ?>
       <p> During the day I spend working on my desk at home. I code, create content and currently researching the right opportunities to help build my <span style="background-color: #000000; color: #ffffff;">&nbsp; web development skills </span>. </p>
       <figure class="separator"></figure>
 
-      <h3 class="underlined">I DO THIS THROUGH CONSTANTLY</h3>
+      <h3 class="my-05"><u>I DO THIS THROUGH CONSTANTLY</u></h3>
 
       <div class="box-container">
         <div class="beige-box-row">
@@ -104,7 +104,7 @@ get_header(); ?>
       </div>
 
       <!--TOOLS-->
-      <h3 class="underlined">TOOLS I USE</h3>
+      <h3 class="my-05"><u>TOOLS I USE</u></h3>
 
       <div class="rectangle-container">
         <div class="black-rectangle-row">

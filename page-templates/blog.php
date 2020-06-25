@@ -10,14 +10,13 @@ get_header(); ?>
   <div class="page-container">
 
     <!--featured post-->
-    <h3 class="underlined">FEATURED POST</h3>
+    <h3 class="m-05"><u>FEATURED POST</u></h3>
     <?php get_template_part( 'template-parts/featured-post', 'page'); ?>
 
 
-    <figure class="separator"></figure>
 
     <!--categories-->
-    <h3 class="underlined">FILTER BY CATEGORY</h3>
+    <h3 class="m-05"><u>FILTER BY CATEGORY</u></h3>
     <section class="box-container" id="myCategories">
       <a class="black-box-row black-box-hover filter active" onclick="filterSelection('all')"><h5>ALL POSTS</h5></a>
       <a class="black-box-row black-box-hover filter" onclick="filterSelection('designandtechnology')"><h5>DESIGN & TECHNOLOGY</h5></a>
