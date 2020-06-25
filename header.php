@@ -28,16 +28,16 @@
     
     <!-------------header and nav-------------->
 
-    <header>
+    <header class="pt-02">
       <div>
         <h1>
           <a href="/">
             ALESSANDRA MILBURN
           </a>
         </h1>
-        <h2 id="tagline"> define. design. develop. </h2>
+        <h2 class="p-0 m-0 caveat"> define. design. develop. </h2>
       </div>
-      <nav>
+      <nav class="p-0 w-100">
       <?php wp_nav_menu( array( 'theme_location' => 'header-menu' ) );?>
       </nav>
     </header>

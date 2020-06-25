@@ -119,7 +119,21 @@ p {
   margin: 1% 0.5%;
 }
 
+/* fonts */
+
+.caveat {
+  font-family: 'Caveat', sans-serif;
+}
+
+.fjalla-one {
+  font-family: 'Fjalla One';
+}
+
+.lato {
+  font-family: 'Fjalla One';
+}
 /* links */
+
 a {
   color: inherit;
   text-decoration: none;
@@ -152,7 +166,6 @@ li p {
 
 header {
   align-items: center;
-  padding: 2% 0% 0% 0%;
   top: 0;
 }
 
@@ -161,18 +174,7 @@ header div {
   padding-bottom: .5%;
 }
 
-#tagline {
-  font-family: 'Caveat';
-  margin: 0%;
-  padding: 0%;
-}
-
 /* menu */
-
-nav {
-  width: 100%;
-  padding: 0%;
-}
 
 nav ul {
   display: flex;
@@ -187,7 +189,6 @@ nav ul {
 nav ul li {
   padding: 1% 2%;
   text-transform: uppercase;
-
 }
 
 nav ul li:hover,
@@ -211,8 +212,16 @@ nav ul li:hover,
   text-align: center;
 }
 
+/* Sizing */
+
+.w-100 {
+  width: 100%;
+}
 /* SPACING */
 
+.m-0 {
+  margin: 0%;
+}
 .m-05 {
   margin: 5%;
 }
@@ -220,6 +229,19 @@ nav ul li:hover,
 .my-05 {
   margin: 5% 0%;
 }
+
+.p-0 {
+  padding: 0%;
+}
+
+.p-05 {
+  padding: 5%;
+}
+
+.pt-02 {
+  padding-top: 2%;
+}
+
 
 
 /*--------------------------------------------------------------
