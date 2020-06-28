@@ -17,11 +17,11 @@ get_header(); ?>
 
     <!--categories-->
     <h3 class="m-05"><u>FILTER BY CATEGORY</u></h3>
-    <section class="box-container" id="myCategories">
-      <a class="black-box-row black-box-hover filter active" onclick="filterSelection('all')"><h5>ALL POSTS</h5></a>
-      <a class="black-box-row black-box-hover filter" onclick="filterSelection('designandtechnology')"><h5>DESIGN & TECHNOLOGY</h5></a>
-      <a class="black-box-row black-box-hover filter" onclick="filterSelection('self-development')"><h5>SELF<br>DEVELOPMENT</h5></a>
-      <a class="black-box-row black-box-hover filter" onclick="filterSelection('interests')"><h5>INTERESTS</h5></a>
+    <section class="flex-row" id="myCategories">
+      <a class="box bg-black hover-bg-beige transition white filter active" onclick="filterSelection('all')"><h5>ALL POSTS</h5></a>
+      <a class="box bg-black hover-bg-beige transition white filter" onclick="filterSelection('designandtechnology')"><h5>DESIGN & TECHNOLOGY</h5></a>
+      <a class="box bg-black hover-bg-beige transition white filter" onclick="filterSelection('self-development')"><h5>SELF<br>DEVELOPMENT</h5></a>
+      <a class="box bg-black hover-bg-beige transition white filter" onclick="filterSelection('interests')"><h5>INTERESTS</h5></a>
     </section>
 
     <br>

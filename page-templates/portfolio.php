@@ -7,36 +7,35 @@
  */
 get_header(); ?>
 
-  <div class="page-container">
+<div class="page-container">
 
-    <h3 class="m-05"><u>WEB DEVELOPMENT PROJECTS</u></h3>
+  <h3 class="m-05"><u>WEB DEVELOPMENT PROJECTS</u></h3>
 
-    <!--LIFE OF MONTY-->
-    <a  href="/portfolio/lifeofmonty">
-      <div class="preview-container">
-          <div class="image-container">
-            <img class="shadow-effect" src="/wp-content/uploads/2020/03/LOM.png" />
+  <!--LIFE OF MONTY-->
+      <article id="post-<?php the_ID(); ?>" class="my-02 w-100">
+        <a  href="/portfolio/lifeofmonty" class="flex-row">
+          <div class="opacity-70 transition w-60 md-w-100">
+            <img class="shadow-effect " src="/wp-content/uploads/2020/03/LOM.png" />
           </div>
-          <div class="short-details">
+          <div class="w-30 a-self-center p-05 md-w-100">  
             <h3>LIFE OF MONTY</h3>
             <br>
-            <ul>
+            <ul class="">
               <li><p>Web Development</p></li>
               <li><p>Social Media</p></li>
               <li><p>Content Creation</p></li>
             </ul>
           </div>    
-      </div>
-    </a>
+      </a>
+    </article>
 
-    <!--AM WEBSITE PORTFOLIO-->
-
-    <a  href="/portfolio/am-portfolio">
-      <div class="preview-container">
-        <div class="image-container">
+  <!--AM WEBSITE PORTFOLIO-->
+    <article id="post-<?php the_ID(); ?>" class="my-02 w-100">
+      <a href="/portfolio/am-portfolio" class="flex-row">
+       <div class="opacity-70 transition w-60 md-w-100">
           <img class="shadow-effect" src="/wp-content/uploads/2020/04/AM-preview.png" />
         </div>
-        <div class="short-details">
+        <div class="w-30 a-self-center p-05 md-w-100">  
           <h3>AM PORTFOLIO</h3>
           <br>
           <ul>
@@ -44,33 +43,33 @@ get_header(); ?>
             <li><p>Content Creation</p></li>
           </ul>
         </div>    
-        </div>
-    </a>
+      </a>
+    </article>
 
 
     <!--DECIMEME-->
-    <a  href="/portfolio/decimeme">
-      <div class="preview-container">
-        <div class="image-container">
-          <img class="shadow-effect" src="/wp-content/uploads/2020/04/decimeme-preview.png" />
+    <article id="post-<?php the_ID(); ?>" class="my-02 w-100">
+      <a  href="/portfolio/decimeme" class="flex-row">
+        <div class="opacity-70 transition w-60 md-w-100">
+          <img class="shadow-effect opacity-70 transition" src="/wp-content/uploads/2020/04/decimeme-preview.png" />
         </div>
-        <div class="short-details">
+        <div class="w-30 a-self-center p-05 md-w-100">  
           <h3>DECIMEME</h3>
           <br>
           <ul>
             <li><p>Web Development</p></li>
           </ul>
         </div>    
-      </div>
-    </a>
+      </a>
+    </article>
 
     <!--JAMMMING APP FEATURE
     <a  href="/portfolio/jammming">
-      <div class="preview-container">
-        <div class="image-container">
+      <div class="flex-row my-02 w-100">
+        <div class="w-60 md-w-100">
           <img src="/wp-content/uploads/2020/03/LOM.png" />
         </div>
-        <div class="short-details">
+        <div class="p-05 a-self-center w-25 md-w-80">
           <h3>JAMMMING</h3>
           <p>December 2019</p>
           <br>
@@ -87,12 +86,12 @@ get_header(); ?>
     <h3 class="m-05"><u>OTHER PROJECTS</u></h3>
 
     <!--ANDRA-->
-    <a  href="/portfolio/andra/">
-      <div class="preview-container">
-        <div class="image-container">
-          <img class="shadow-effect" src="/wp-content/uploads/2020/03/Andra-adpost-scaled.jpg" />
+    <article id="post-<?php the_ID(); ?>" class="my-02 w-100">
+      <a  href="/portfolio/andra" class="flex-row">
+        <div class="opacity-70 transition w-60 md-w-100">
+          <img class="shadow-effect opacity-70 transition" src="/wp-content/uploads/2020/03/Andra-adpost-scaled.jpg" />
         </div>
-        <div class="short-details">
+        <div class="w-30 a-self-center p-05 md-w-100">  
           <h3>ANDRA FASHION</h3>
           <br>
           <ul>
@@ -102,36 +101,36 @@ get_header(); ?>
             <li><p>Social Media</p></li>
           </ul>
         </div> 
-      </div>
-    </a>
+      </a>
+    </article>
 
     <!--MY NEXT DRESS-->
-    <a  href="/portfolio/mynextdress">
-      <div class="preview-container">
-        <div class="image-container">
+  <article id="post-<?php the_ID(); ?>" class="my-02 w-100">
+    <a  href="/portfolio/mynextdress" class="flex-row">
+      <div class="opacity-70 transition w-60 md-w-100">
           <img class="shadow-effect" src="/wp-content/uploads/2020/03/mynextdress-preview.png" />
         </div>
-        <div class="short-details">
+        <div class="w-30 a-self-center p-05 md-w-100">  
           <h3>MY NEXT DRESS</h3>
           <br>
           <ul>
             <li><p>Web Re-Design (UX/UI)</p></li>
             <li><p>E-commerce Operations</p></li>
             <li><p>Social Media</p></li>
-           </ul>
-        </div>      
-      </div>
-    </a>
+            </ul>
+        </div> 
+      </a>
+    </article>
 
 
 
       <!--NEXT GENERATION
     <a  href="/portfolio/nextgenerationmarketing">
-      <div class="preview-container">
-        <div class="image-container">          
+      <div class="flex-row my-02 w-100">
+        <div class="w-60 md-w-100">          
           <img src="/wp-content/uploads/2020/03/nextgeneration.png" />
         </div>
-        <div class="short-details">
+        <div class="p-05 a-self-center w-25 md-w-80">
           <h3>NEXT GENERATION</h3>
           <p>2018-2019</p>
           <br>

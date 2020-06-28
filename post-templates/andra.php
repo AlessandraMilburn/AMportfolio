@@ -9,11 +9,11 @@ get_header(); ?>
 
 <div class="page-container">
   <!--Project Introduction-->
-  <section class="detailed-row">
-      <div class="image-container">
+  <section class="flex-row my-05">
+      <div class="w-60 md-w-100">
         <img class="shadow-effect" src="/wp-content/uploads/2020/03/Andra-adpost-scaled.jpg"/>
       </div>
-      <div class="collective-info ">
+      <div class="md-m-0 md-w-100 ">
         <h2 class="project-name">ANDRA</h2>
         <h4>Women's Fashion E-Commerce</h3>
         <p class="grey">2016-2018</p>
@@ -22,39 +22,40 @@ get_header(); ?>
           the United Arab Emirates through a third-party courier with options to pay cash-on-delivery or online via Paypal. 
           Sales platforms are through Social Media, Website and Pop-up shops.
         </p>
-        <p class="beige-link"><a target="_blank" href="https://www.facebook.com/AndraUAE/">FACEBOOK SALES PAGE</a></p>
+        <p class="beige"><u><a target="_blank" href="https://www.facebook.com/AndraUAE/">FACEBOOK SALES PAGE</a></u></p>
+
         <p class="grey">SOCIAL MEDIA&ensp;PRINT&ensp;SHOPIFY&ensp;POP-UP SHOP&ensp;PARTNERSHIPS</p>
       </div>
   </section>
 
   <!--Project Details-->
-  <section class="detailed-column ">
+  <section class="flex-column ">
     <!--GOAL-->
     <div>
       <h2>GOAL</h2>
       <br>
-      <p class="black-rectangle-row" >To build a profitable e-commerce business at a minimal budget</p>
+      <p class="strip bg-black white" >To build a profitable e-commerce business at a minimal budget</p>
     </div>
     <figure class="separator"></figure>
 
     <!--CREATIVE WORK-->
     <div>
       <h2>CREATIVE WORK</h2>
-      <div class="row-images">
-        <span>
+      <div class="flex-row">
+      <span class="w-30 p-01 m-01 md-w-40 md-my-5">
           <img class="shadow-effect" src="/wp-content/uploads/2020/03/andra-Tags.jpg"/>
           <p>TAGS</p>
         </span>
 
-        <span>
+        <span class="w-30 p-01 m-01 md-w-40 md-my-5">
           <img class="shadow-effect" src="/wp-content/uploads/2020/03/andra-logo.png"/>
           <p>LOGO</p>
         </span>
-        <span>
+        <span class="w-30 p-01 m-01 md-w-40 md-my-5">
           <img class="shadow-effect" src="/wp-content/uploads/2020/03/Andra-Labels.jpg"/>
           <p>LABELS</p>
         </span>
-        <span>
+        <span class="w-30 p-01 m-01 md-w-40 md-my-5">
           <img class="shadow-effect" src="/wp-content/uploads/2020/03/andra-posts-scaled.jpg"/>
           <p>AD POSTS</p>
         </span>
@@ -68,18 +69,18 @@ get_header(); ?>
     <div>
       <h2>SOCIAL MEDIA - COLLABORATIONS</h2>
       <p>By collaborating with social media profiles with good following, not only did it boost the social media presence but also gave us material to use for our social media profiles content at zero to minimal cost.</p>
-      <div class="row-images">
-        <span>
+      <div class="flex-row">
+        <span class="w-30 p-01 m-01 md-w-40 md-my-2">
           <img class="shadow-effect" src="/wp-content/uploads/2020/03/andra-katikuko.jpg"/>
         </span>
 
-        <span>
+        <span class="w-30 p-01 m-01 md-w-40 md-my-2">
           <img class="shadow-effect" src="/wp-content/uploads/2020/03/andra-Dubai_Maven.jpg"/>
         </span>
-        <span>
+        <span class="w-30 p-01 m-01 md-w-40 md-my-2">
           <img class="shadow-effect" src="/wp-content/uploads/2020/03/andra-djjen.jpg"/>
         </span>
-        <span>
+        <span class="w-30 p-01 m-01 md-w-40 md-my-2">
           <img class="shadow-effect" src="/wp-content/uploads/2020/03/andra-collab-65.jpg"/>
         </span>
       </div>
@@ -90,18 +91,18 @@ get_header(); ?>
     <div>
       <h2>CUSTOMERS</h2>
       <p>By sharing the customer's photos (with permission) to our social media, this created social proof and increased our sales dramatically.</p>
-      <div class="row-images">
-        <span>
+      <div class="flex-row">
+        <span class="w-30 p-01 m-01 md-w-40 md-my-2">
           <img class="shadow-effect" src="/wp-content/uploads/2020/03/andra-customer2537.jpg"/>
         </span>
 
-        <span>
+        <span class="w-30 p-01 m-01 md-w-40 md-my-2">
           <img class="shadow-effect" src="/wp-content/uploads/2020/03/andra-customer4913.jpg"/>
         </span>
-        <span>
+        <span class="w-30 p-01 m-01 md-w-40 md-my-2">
           <img class="shadow-effect" src="/wp-content/uploads/2020/03/andra-Kate.jpg"/>
         </span>
-        <span>
+        <span class="w-30 p-01 m-01 md-w-40 md-my-2">
           <img class="shadow-effect" src="/wp-content/uploads/2020/03/andra-Jessica.jpg"/>
         </span>
       </div>
@@ -113,17 +114,17 @@ get_header(); ?>
       <h2>AD POSTS</h2>
       <p>All social media posts include a full faced person wearing the products. 
         <br>Photos courtesy of Khadija Suleiman @khadz.mua</p>
-      <div class="row-images">
-        <span>
+      <div class="flex-row">
+        <span class="w-30 p-01 m-01 md-w-40 md-my-2">
           <img class="shadow-effect" src="/wp-content/uploads/2020/03/andra-adpost39.jpg"/>
         </span>
-        <span>
+        <span class="w-30 p-01 m-01 md-w-40 md-my-2">
           <img class="shadow-effect" src="/wp-content/uploads/2020/03/andra-adpost347.jpg"/>
         </span>
-        <span>
+        <span class="w-30 p-01 m-01 md-w-40 md-my-2">
           <img class="shadow-effect" src="/wp-content/uploads/2020/03/andra-adpost2.jpg"/>
         </span>
-        <span>
+        <span class="w-30 p-01 m-01 md-w-40 md-my-2">
           <img class="shadow-effect" src="/wp-content/uploads/2020/03/andra-adpost6.jpg"/>
         </span>
       </div>
@@ -132,7 +133,7 @@ get_header(); ?>
   </section>
 
   <!--Project Results-->
-  <section class="detailed-column">
+  <section class="flex-column">
     <h2>BUSINESS INFORMATION</h2>
     <ul>
       <li><p>With an initial capital investment of AED 5000 for products, digital fees and business license installment. Andra was able to become self sustainable within 3 months going on to generate a total revenue of AED 119,800 within a 12 month sales period with a profit of AED 73,800</p></li>
@@ -157,8 +158,9 @@ get_header(); ?>
   </section>
 
 
-  <a class="black-rectangle-button" href="/portfolio">BACK TO PROJECTS</a>
-
+  <button class="strip bg-black white w-50 a-self-center letter-space-1 hover-bg-beige transition">
+    <a class="" href="/portfolio"><h4>BACK TO PROJECTS</h4></a>
+  </button>
 </div>
 
 
