@@ -1,7 +1,7 @@
 
 <?php
 /*
- * Template Name: Portfolio
+ * Template Name: Portfolio V1
  * description: this is a template for projects
   
  */
