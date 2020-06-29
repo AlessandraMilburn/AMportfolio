@@ -16,7 +16,6 @@ get_header(); ?>
     <div class="md-m-0 md-w-100">
       <h2>LIFE OF MONTY</h2>
       <h4>Informational Blog</h3>
-      <p class="grey">4 weeks</p>
       <p>The Life of Monty website is created to share informational experiences of my French Bulldog named Monty and help other Frenchie owners through the challenges of caring for the sensitive breed. 
           It shares products that help ease the common breed problems, shares training tips to ease the
            dog and owner's life dynamic and shares the stories he's been through as an adopted dog.
