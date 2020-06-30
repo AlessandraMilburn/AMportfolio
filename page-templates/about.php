@@ -71,13 +71,13 @@ get_header(); ?>
 
       <h3 class="my-05"><u>CURRENT TOP 3 FAVORITE PODCASTS ARE</u></h3>
       <div class="flex-row">
-        <div class="strip bg-black white">
+        <div class="strip bg-black white hover-bg-beige transition">
           <a target="_blank" href="https://open.spotify.com/show/6kAsbP8pxwaU2kPibKTuHE"><h5>ARMCHAIR EXPERT</h5></a>
         </div>
-        <div class="strip bg-black white">
+        <div class="strip bg-black white hover-bg-beige transition">
           <a target="_blank" href="https://open.spotify.com/show/1VXcH8QHkjRcTCEd88U3ti"><h5>TED TALKS DAILY</h5></a>
         </div>
-        <div class="strip bg-black white">
+        <div class="strip bg-black white hover-bg-beige transition">
           <a target="_blank" href="https://open.spotify.com/show/4kYCRYJ3yK5DQbP5tbfZby"><h5>SYNTAX.</h5></a>
         </div>
       </div>
