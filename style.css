@@ -151,6 +151,19 @@ p {
   text-transform: uppercase;
 }
 
+.hl-black {
+  background: linear-gradient(to bottom, transparent 60%, #000000 40%);
+}
+
+.hl-white-s {
+  background: linear-gradient(to bottom, transparent 85%, #ffffff 15%);
+}
+
+.hl-beige {
+  background: linear-gradient(to bottom, transparent 70%, #DCA889 30%);
+}
+
+
 /* spacing / height */
 
 .letter-space-1 {
@@ -314,6 +327,8 @@ nav ul li {
   margin-left: 5%;
   margin-right: 5%;
 }
+
+
 .m-05 {
   margin: 5%;
 }
@@ -494,6 +509,11 @@ nav ul li:hover,
 .opacity-70:hover {
   opacity: 70%;
 }
+
+.hl-white-s:hover {
+  background: linear-gradient(to bottom, transparent 85%, #000000 15%);
+}
+
 
 /*--------------------------------------------------------------
 9.0 Post

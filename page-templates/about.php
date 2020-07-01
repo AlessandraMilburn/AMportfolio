@@ -9,7 +9,7 @@ get_header(); ?>
   <div class="page-container">
     <!-- ABOUT -->
     <img class="centered-image" src="/wp-content/uploads/2020/03/Profile.jpg" />
-    <p>Hi, I'm Alessandra! I'm a self-taught <span style="background-color: #000000; color: #ffffff;">&nbsp;web developer </span><br>with a background in marketing and operations of 7 years.</p>
+    <p>Hi, I'm Alessandra! I'm a self-taught <span class="hl-beige">&nbsp;web developer </span><br>with a background in marketing and operations of 7 years.</p>
       
     <figure class="separator"></figure>
     <p>My passion for coding is rooted in a desire to gain a better understanding on how digital assets are created and bridge the gap between creatives (the one with the vision) and developers (the one with the technical skills).</p>
@@ -47,12 +47,12 @@ get_header(); ?>
       <div class="flex-row">
         <div class="strip bg-beige white w-100">
           <h5><b>TASK PRIORITIZATION</b> 
-          <br>using the <a target="_blank" href="https://www.eisenhower.me/eisenhower-matrix/" style="text-decoration: underline;">Eisenhower Matrix</a> 
+          <br>using the <a class="hl-white-s" target="_blank" href="https://www.eisenhower.me/eisenhower-matrix/">Eisenhower Matrix</a> 
           </h5>
         </div>
-        <div class="strip bg-beige white w-100">
+        <div class="strip bg-beige white w-100 ">
           <h5><b>STRUCTURED TIME MANAGEMENT</b> 
-            <br>time blocking through <a target="_blank" href="https://calendar.google.com/calendar" style="text-decoration: underline;">Google Calendar / Reminder / Tasks</a>.
+            <br>time blocking through <a class="hl-white-s" target="_blank" href="https://calendar.google.com/calendar">Google Calendar / Reminder / Tasks</a>.
           </h5>
         </div>
         <div class="strip bg-beige white w-100">
@@ -69,24 +69,29 @@ get_header(); ?>
 
       <figure class="separator"></figure>
 
-      <h3 class="my-05"><u>CURRENT TOP 3 FAVORITE PODCASTS ARE</u></h3>
+      <h3 class="my-05"><u>MY FAVORITE PODCASTS ARE</u></h3>
       <div class="flex-row">
         <div class="strip bg-black white hover-bg-beige transition">
           <a target="_blank" href="https://open.spotify.com/show/6kAsbP8pxwaU2kPibKTuHE"><h5>ARMCHAIR EXPERT</h5></a>
         </div>
         <div class="strip bg-black white hover-bg-beige transition">
-          <a target="_blank" href="https://open.spotify.com/show/1VXcH8QHkjRcTCEd88U3ti"><h5>TED TALKS DAILY</h5></a>
+          <a target="_blank" href="https://open.spotify.com/show/4XPl3uEEL9hvqMkoZrzbx5"><h5>DARKNET DIARIES</h5></a>
         </div>
         <div class="strip bg-black white hover-bg-beige transition">
           <a target="_blank" href="https://open.spotify.com/show/4kYCRYJ3yK5DQbP5tbfZby"><h5>SYNTAX.</h5></a>
         </div>
+        <div class="strip bg-black white hover-bg-beige transition">
+          <a target="_blank" href="https://open.spotify.com/show/1VXcH8QHkjRcTCEd88U3ti"><h5>TED TALKS DAILY</h5></a>
+        </div>
       </div>
+
+      
           
       <figure class="separator"></figure>
 
       <!--WORK-->
       <img class="centered-image" src="/wp-content/uploads/2020/03/workdesk.jpg" />
-      <p> During the day I spend working on my desk at home. I code, create content and currently researching the right opportunities to help build my <span style="background-color: #000000; color: #ffffff;">&nbsp; web development skills </span>. </p>
+      <p> During the day I spend working on my desk at home. I code, create content and currently researching the right opportunities to help build my <span class="hl-beige">&nbsp; web development skills </span>. </p>
       <figure class="separator"></figure>
 
       <h3 class="my-05"><u>I DO THIS THROUGH CONSTANTLY</u></h3>
@@ -104,7 +109,7 @@ get_header(); ?>
       </div>
 
       <!--TOOLS-->
-      <h3 class="my-05"><u>TOOLS I USE</u></h3>
+      <h3 class="my-05"><u>TECH STACK</u></h3>
 
       <div class="flex-row">
         <div class="strip bg-black white">
@@ -132,11 +137,15 @@ get_header(); ?>
           <h5>FILEZILLA</h5>
         </div>
         <div class="strip bg-black white">
+          <h5>LOCAL.FLYWHEEL</h5>
+        </div>
+        <div class="strip bg-black white">
           <h5>WORDPRESS</h5>
         </div>
         <div class="strip bg-black white">
-          <h5>LOCAL.FLYWHEEL</h5>
+          <h5>BOOTSTRAP</h5>
         </div>
+
       </div>
 
       <figure class="separator"></figure>
