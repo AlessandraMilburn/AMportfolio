@@ -15,7 +15,7 @@ get_header(); ?>
   <?php 
         $args = array(
         'post_type' => 'post',
-        'post_status' => 'private',
+        'post_status' => 'publish',
         'category_name' => 'web-development',
         'orderby' => 'post_date',
         'order' => 'ASC'
@@ -57,7 +57,7 @@ get_header(); ?>
   <?php 
         $args = array(
         'post_type' => 'post',
-        'post_status' => 'private',
+        'post_status' => 'publish',
         'category_name' => 'other-projects',
         'orderby' => 'post_date',
         'order' => 'ASC'
