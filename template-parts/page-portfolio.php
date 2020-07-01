@@ -1,7 +1,7 @@
 
 <?php
 /*
- * Template Name: Portfolio V2
+ * Template Name: Portfolio
  * description: this is a template for projects
   
  */
@@ -17,6 +17,8 @@ get_header(); ?>
         'post_type' => 'post',
         'post_status' => 'private',
         'category_name' => 'web-development',
+        'orderby' => 'post_date',
+        'order' => 'ASC'
         );
                 
         $arr_posts = new WP_Query( $args );        
@@ -35,7 +37,7 @@ get_header(); ?>
           <div class="w-30 a-self-center p-05 md-w-100">  
             <h3 class="uppercase"><?php the_title(); ?></h3>
             <br>
-            <div class="w-100">
+            <div class="w-100 no-click">
               <?php the_tags('<ul><li><p>', '</p></li><li><p>', '</p></li></ul>'); ?>
             </div>
           </div>
@@ -56,7 +58,9 @@ get_header(); ?>
         $args = array(
         'post_type' => 'post',
         'post_status' => 'private',
-        'category_name' => 'web-development',
+        'category_name' => 'other-projects',
+        'orderby' => 'post_date',
+        'order' => 'ASC'
         );
                 
         $arr_posts = new WP_Query( $args );        
@@ -75,7 +79,7 @@ get_header(); ?>
           <div class="w-30 a-self-center p-05 md-w-100">  
             <h3 class="uppercase"><?php the_title(); ?></h3>
             <br>
-            <div class="w-100">
+            <div class="w-100 no-click">
               <?php the_tags('<ul><li><p>', '</p></li><li><p>', '</p></li></ul>'); ?>
             </div>
           </div>

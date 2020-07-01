@@ -496,7 +496,7 @@ nav ul li:hover,
 }
 
 .hover-black:hover {
-  color: #000000
+  color: #000000;
 }
 .hover-bg-beige:hover {
   background-color: #DCA889;
@@ -514,6 +514,9 @@ nav ul li:hover,
   background: linear-gradient(to bottom, transparent 85%, #000000 15%);
 }
 
+.no-click a {
+  pointer-events: none;
+}
 
 /*--------------------------------------------------------------
 9.0 Post
