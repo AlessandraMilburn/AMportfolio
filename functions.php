@@ -77,5 +77,7 @@ add_action('after_setup_theme', 'am_features');
 function add_meta_tags() {
 ?>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta property="og:image" content="https://www.alessandramilburn.com/wp-content/uploads/2020/03/Logo.png" />
+  <meta name="p:domain_verify" content="61eae8efaa5ec066ea42a394ab4b7e54"/>
   <?php }
   add_action('wp_head', 'add_meta_tags');

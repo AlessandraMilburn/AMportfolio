@@ -20,9 +20,7 @@
           gtag('js', new Date());
           gtag('config', 'UA-119129309-2');
         </script>
-        <meta property="og:image" content="https://www.alessandramilburn.com/wp-content/uploads/2020/03/Logo.png" />
         <script type="text/javascript" src="https://platform-api.sharethis.com/js/sharethis.js#property=5e777baefac6be0012fa5e91&product=inline-share-buttons" async="async"></script>
-        <meta name="p:domain_verify" content="61eae8efaa5ec066ea42a394ab4b7e54"/>
   </head>
 
   <body>
