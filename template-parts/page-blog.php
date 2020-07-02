@@ -11,7 +11,7 @@ get_header(); ?>
 
     <!--featured post-->
     <h3 class="m-05"><u>FEATURED POST</u></h3>
-    <?php get_template_part( 'template-parts/blog-featured-post', 'page'); ?>
+    <?php get_template_part( 'template-parts/blog/blog-featured-post', 'page'); ?>
 
 
 
@@ -27,15 +27,15 @@ get_header(); ?>
     <br>
 
     <div class="category designandtechnology display-filtered-column">
-    <?php get_template_part( 'template-parts/blog-designandtech', 'page'); ?>
+    <?php get_template_part( 'template-parts//blog/blog-designandtech', 'page'); ?>
     </div>
 
     <div class="category self-development display-filtered-column">
-    <?php get_template_part( 'template-parts/blog-self-development', 'page'); ?>
+    <?php get_template_part( 'template-parts/blog/blog-self-development', 'page'); ?>
     </div>
 
     <div class="category interests display-filtered-column">
-    <?php get_template_part( 'template-parts/blog-interests', 'page'); ?>
+    <?php get_template_part( 'template-parts/blog/blog-interests', 'page'); ?>
     </div>
   </div>
 

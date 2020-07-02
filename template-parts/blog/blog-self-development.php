@@ -1,10 +1,10 @@
 
-  <!--INTERESTS-->
+  <!--SELF-DEVELOPMENT-->
   <?php 
         $args = array(
         'post_type' => 'post',
         'post_status' => 'publish',
-        'category_name' => 'interests',
+        'category_name' => 'self-development',
         );
                 
         $arr_posts = new WP_Query( $args );        
@@ -13,8 +13,8 @@
         $arr_posts->the_post();
       ?>
                                    
-      <?php get_template_part('template-parts/blog-preview', 'post'); ?>
-      
+      <?php get_template_part('template-parts/blog/blog-preview', 'post'); ?>
+
       <?php
         endwhile;
         else: ?>
