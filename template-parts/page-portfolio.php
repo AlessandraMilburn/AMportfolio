@@ -30,8 +30,8 @@ get_header(); ?>
       <!--Project Preview-->
 
       <article id="post-<?php the_ID(); ?>" class="my-02 w-100 flex-row">
-        <a href="<?php the_permalink(); ?>" class="w-60">
-          <div class="opacity-70 transition  md-w-100">
+        <a href="<?php the_permalink(); ?>" class="w-60 md-w-100">
+          <div class="opacity-70 transition">
             <img class="shadow-effect" src="<?php the_post_thumbnail_url(); ?>" />
           </div>
           <div class="w-30 a-self-center p-05 md-w-100">  
@@ -72,7 +72,7 @@ get_header(); ?>
       <!--Project Preview-->
 
       <article id="post-<?php the_ID(); ?>" class="my-02 w-100 flex-row">
-        <a href="<?php the_permalink(); ?>" class="w-60">
+      <a href="<?php the_permalink(); ?>" class="w-60 md-w-100">
           <div class="opacity-70 transition  md-w-100">
             <img class="shadow-effect" src="<?php the_post_thumbnail_url(); ?>" />
           </div>
