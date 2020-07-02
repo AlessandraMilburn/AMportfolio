@@ -6,6 +6,8 @@
   
  */
 get_header(); ?>
+<!--Progress bar-->
+<?php get_template_part('template-parts/components/scroll-indicator', 'post'); ?>
 
 <div class="page-container">
   <!--Project Introduction-->

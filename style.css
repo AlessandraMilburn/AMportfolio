@@ -189,7 +189,6 @@ header {
 
 header div {
   text-align: center;
-  padding-bottom: .5%;
 }
 
 /* menu */
@@ -457,7 +456,7 @@ main img {
   display: none;
 }
 
-/* JS filter start */
+/* JS filter --- start */
 
 .category {
   display: none;
@@ -474,7 +473,28 @@ main img {
   margin: 0%;
 }
 
-/* -------end */
+/* JS filter --- end */
+
+/* JS Scroll indicator --- start */
+
+
+.progress-container {
+  width: 100%;
+  height: 8px;
+  background: #ffffff;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.progress-bar {
+  height: 8px;
+  background: #DCA889;
+  width: 0%;
+}
+
+/* JS Scroll indicator --- end */
+
 
 /*--------------------------------------------------------------
 8.0 States
@@ -588,7 +608,7 @@ figcaption {
 /* normalizer */
 
   header div {
-    padding: 1.5% 0%;
+    padding: 1.5% 0% 0% 0%;
   }  
 
   nav ul li {

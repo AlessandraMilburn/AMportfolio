@@ -1,6 +1,12 @@
       <!--The Post-->
-      <div class="page-container">
+    <!--Progress bar-->
+    <?php get_template_part('template-parts/components/scroll-indicator', 'post'); ?>
+
+    <div class="page-container">
+
+
     <article class="heavy-content">
+
       <?php the_post_thumbnail(); ?>
       <br>
       <h1><?php the_title(); ?></h1>
