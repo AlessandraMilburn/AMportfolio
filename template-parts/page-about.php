@@ -109,7 +109,7 @@ get_header(); ?>
       </div>
 
       <!--TOOLS-->
-      <h3 class="my-05"><u>TECH STACK</u></h3>
+      <h3 class="my-05"><u>MY TECH STACK</u></h3>
 
       <div class="flex-row">
         <div class="strip bg-black white">
@@ -144,6 +144,12 @@ get_header(); ?>
         </div>
         <div class="strip bg-black white">
           <h5>BOOTSTRAP</h5>
+        </div>
+        <div class="strip bg-black white">
+          <h5>SHOPIFY</h5>
+        </div>
+        <div class="strip bg-black white">
+          <h5>LIQUID</h5>
         </div>
 
       </div>
