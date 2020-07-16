@@ -732,6 +732,12 @@ figcaption {
     margin: 5% 0%;
   }
 
+  /* layout */
+  .progress-bar,
+  .progress-container {
+    height: 4px;
+  }
+
 /* footer */
 
   footer {
