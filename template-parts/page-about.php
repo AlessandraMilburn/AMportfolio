@@ -146,15 +146,14 @@ get_header(); ?>
           <h5>WORDPRESS</h5>
         </div>
         <div class="strip bg-black white">
-          <h5>LOCAL.FLYWHEEL</h5>
-        </div>
-        <div class="strip bg-black white">
           <h5>VSCODE</h5>
         </div>
         <div class="strip bg-black white">
           <h5>FILEZILLA</h5>
         </div>
-
+        <div class="strip bg-black white">
+          <h5>LOCAL.FLYWHEEL</h5>
+        </div>
       </div>
 
       <figure class="separator"></figure>
