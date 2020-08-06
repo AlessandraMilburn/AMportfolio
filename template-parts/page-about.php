@@ -128,28 +128,31 @@ get_header(); ?>
           <h5>REACT.JS</h5>
         </div>
         <div class="strip bg-black white">
-          <h5>FIGMA</h5>
-        </div>
-        <div class="strip bg-black white">
-          <h5>VSCODE</h5>
-        </div>
-        <div class="strip bg-black white">
-          <h5>FILEZILLA</h5>
-        </div>
-        <div class="strip bg-black white">
-          <h5>LOCAL.FLYWHEEL</h5>
-        </div>
-        <div class="strip bg-black white">
-          <h5>WORDPRESS</h5>
+          <h5>SASS</h5>
         </div>
         <div class="strip bg-black white">
           <h5>BOOTSTRAP</h5>
+        </div>
+        <div class="strip bg-black white">
+          <h5>FIGMA</h5>
         </div>
         <div class="strip bg-black white">
           <h5>SHOPIFY</h5>
         </div>
         <div class="strip bg-black white">
           <h5>LIQUID</h5>
+        </div>
+        <div class="strip bg-black white">
+          <h5>WORDPRESS</h5>
+        </div>
+        <div class="strip bg-black white">
+          <h5>LOCAL.FLYWHEEL</h5>
+        </div>
+        <div class="strip bg-black white">
+          <h5>VSCODE</h5>
+        </div>
+        <div class="strip bg-black white">
+          <h5>FILEZILLA</h5>
         </div>
 
       </div>
