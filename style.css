@@ -480,7 +480,7 @@ main img {
 
 .progress-container {
   width: 100%;
-  height: 8px;
+  height: 4px;
   background: #ffffff;
   position: -webkit-sticky;
   position: sticky;
@@ -488,7 +488,7 @@ main img {
 }
 
 .progress-bar {
-  height: 8px;
+  height: 4px;
   background: #DCA889;
   width: 0%;
 }
@@ -730,12 +730,6 @@ figcaption {
   .share-links {
     width: 100%;
     margin: 5% 0%;
-  }
-
-  /* layout */
-  .progress-bar,
-  .progress-container {
-    height: 4px;
   }
 
 /* footer */
