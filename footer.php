@@ -9,6 +9,10 @@
         <div class="h-100 mx-05 my-01"><a target="_blank" href="https://github.com/AlessandraMilburn"><i class="fab fa-github hover-beige transition"></i></a></div>      
       </div>
 
+      <div>
+      
+      </div>
+
       <h4>
         COPYRIGHT 2020 <wbr> ALESSANDRA MILBURN
       </h4>
