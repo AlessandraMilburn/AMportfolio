@@ -619,6 +619,10 @@ figcaption {
     font-size: 90%;
   }
 
+  .md-show {
+    display: block;
+  }
+
   /* typography */
 
   h1 {
@@ -654,6 +658,10 @@ figcaption {
     width: 37.5%;
     margin: 2%;
     padding: 5% 3%;
+  }
+
+  .md-flex-column {
+    flex-direction: column;
   }
 
 /* IMAGES*/
@@ -709,11 +717,16 @@ figcaption {
   .md-py-20 {
     padding: 20% 0%;
   }
+  
 
 /* behaviour */
 
   .md-wrap {
     flex-wrap: wrap;
+  }
+
+  .md-center {
+    justify-content: center;
   }
 
   /* BLOG POST */
@@ -735,7 +748,7 @@ figcaption {
 /* footer */
 
   footer {
-    height: 50px;
+    height: fit-content;
     padding: 3%;
     align-items: center;
   }
