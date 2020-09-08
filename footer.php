@@ -9,8 +9,8 @@
         <div class="h-100 mx-05 my-01"><a target="_blank" href="https://github.com/AlessandraMilburn"><i class="fab fa-github hover-beige transition"></i></a></div>      
       </div>
 
-      <div>
-      
+      <div class="w-15 flex-row left-align md-w-40">
+        <img class="shadow-effect w-100" src="/wp-content/uploads/2020/09/icon-shopify-partner.jpg" />        
       </div>
 
       <h4>
