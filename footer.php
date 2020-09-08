@@ -11,7 +11,7 @@
 
       <div class="w-15 md-w-100 md-center">
         <a class="w-100 h-100 md-h-50 md-w-25" target="_blank" href="https://www.shopify.com/?ref=alessandra-milburn-services&utm_campaign=amwebsite"> 
-          <img class="shadow-effect h-100 md-w-80" src="/wp-content/uploads/2020/09/icon-shopify-partner-white.png" />        
+          <img class="shadow-effect h-100 md-w-40" src="/wp-content/uploads/2020/09/icon-shopify-partner-white.png" />        
         </a>
       </div>
 

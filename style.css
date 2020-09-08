@@ -724,6 +724,10 @@ figcaption {
     margin: 5% 0%;
   }
 
+  .md-py-5 {
+    padding: 5% 0%;
+  }
+
   .md-py-20 {
     padding: 20% 0%;
   }
