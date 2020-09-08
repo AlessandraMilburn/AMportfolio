@@ -371,6 +371,11 @@ nav ul li {
   justify-content: start;
 }
 
+.center {
+  justify-content: center;
+  text-align: center;
+}
+
 li p {
   text-align: left;
 }

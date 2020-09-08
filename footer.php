@@ -9,7 +9,7 @@
         <div class="h-100 mx-05 my-01"><a target="_blank" href="https://github.com/AlessandraMilburn"><i class="fab fa-github hover-beige transition"></i></a></div>      
       </div>
 
-      <div class="w-15 md-w-100 md-center">
+      <div class=" center w-15 md-w-100">
         <a class="w-100 h-100 md-h-50 md-w-25" target="_blank" href="https://www.shopify.com/?ref=alessandra-milburn-services&utm_campaign=amwebsite"> 
           <img class="shadow-effect h-100 md-w-40" src="/wp-content/uploads/2020/09/icon-shopify-partner-white.png" />        
         </a>
