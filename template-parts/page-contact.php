@@ -12,7 +12,7 @@ get_header(); ?>
       <h2>Need help with a project?</h2> 
       <br>
       <br>
-      <h5>Let's talk! Send me an email at <a class="strip bg-black white transition m-0 hover-bg-beige md-mx-10 " href="mailto:alessandra.milburn@yahoo.com">alessandra.milburn@yahoo.com</a> and I'll get back to you as soon as I can.</h5>
+      <h5>Let's talk! Send me an email at <a class="strip bg-black white transition m-0 hover-bg-beige md-mx-10 " href="mailto:hello@alessandramilburn.com">hello@alessandramilburn.com</a> and I'll get back to you as soon as I can.</h5>
     </div>    
  </div>
 
