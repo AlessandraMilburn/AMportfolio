@@ -13,6 +13,9 @@
         <a class="w-100 h-100 md-h-50 md-w-25" target="_blank" href="https://www.shopify.com/?ref=alessandra-milburn-services&utm_campaign=amwebsite"> 
           <img class="shadow-effect h-100 md-w-40" src="/wp-content/uploads/2020/09/icon-shopify-partner-white.png" />        
         </a>
+        <a class="w-100 h-100 md-h-50 md-w-25" target="_blank" href="https://app.getflywheel.com/"> 
+          <img class="shadow-effect h-100 md-w-40 hover-beige transition" src="https://www.alessandramilburn.com/wp-content/uploads/2020/11/icons-flywheel.svg" />        
+        </a>
       </div>
 
       <h4 class="md-w-100 md-center">
