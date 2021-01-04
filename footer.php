@@ -16,7 +16,7 @@
       </div>
 
       <h4 class="md-w-100 md-center">
-        COPYRIGHT 2020 <wbr> ALESSANDRA MILBURN
+        COPYRIGHT <?php echo date("Y"); ?> <wbr> ALESSANDRA MILBURN
       </h4>
     </footer>
   
